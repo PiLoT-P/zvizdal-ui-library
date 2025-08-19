@@ -1,0 +1,43 @@
+@mixin mobile {
+  @media screen and (min-width: 320px){
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: 768px){
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin laptopL {
+  @media screen and (min-width: 1440px){
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 1920px) {
+    @content;
+  }
+}
+
+/* - fonts mixins - */
+
+@mixin font-size($mobile, $tablet, $desktop){
+  font-size:  $mobile;
+
+  @media (min-width: 768px) {
+    font-size: $tablet;
+  }
+
+  @media (min-width: 1280px) {
+    font-size: $desktop;
+  }
+}

@@ -1,0 +1,11 @@
+:root{
+  /* Curents colors */
+  /* --accent-color: rgba(135, 147, 156, 1); */
+  --light-accent-color: rgba(241, 241, 241, 1);
+
+  --text-color: rgb(121, 121, 121);
+
+  /* Shadows */
+  --second-shadow: inset 1px 1px 4px 1px rgba(12,12,13,0.05);
+
+}

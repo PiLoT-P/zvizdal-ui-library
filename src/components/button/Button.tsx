@@ -38,6 +38,7 @@ function Button({
       className={`
         ${s.btn}
         ${s[variant]}
+        ${disabled ? s.disabled : ''}
         ${className}
       `}
       onClick={onFileSelect ? triggerFileInput : onClick}
