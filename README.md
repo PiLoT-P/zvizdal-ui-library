@@ -1,3 +1,3 @@
-# My libarary
+# My library
 
-My first libarary
+My first library
